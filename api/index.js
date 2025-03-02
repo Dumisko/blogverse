@@ -20,7 +20,7 @@ mongoose.set('strictQuery', true);
 const salt = bcrypt.genSaltSync(10);
 const secret = 'asdfe45we45w345wegw345werjktjwertkj';
 
-app.use(cors({credentials:true,origin:'https://blogverse-flame.vercel.app'}));
+app.use(cors({credentials:true,origin:'https://vercel.com/saikats-projects-06694ec2/blogverse/uKV4dvSeT8kLu5toj8wP3JNVqMqC'}));
 app.use(express.json());
 app.use(cookieParser());
 app.use('/uploads', express.static(__dirname + '/uploads'));
